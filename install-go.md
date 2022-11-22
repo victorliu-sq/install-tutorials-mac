@@ -63,3 +63,25 @@ source ~/.bash_profile
 go version	
 ```
 
+
+
+zsh: command not found: go
+
+```shell
+vim ~/.zshrc
+```
+
+
+
+```shell
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+```
+
+
+
+```shell
+source ~/.zshrc
+go version	
+```
+
